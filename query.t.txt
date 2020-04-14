@@ -1,0 +1,60 @@
+Query 1:-
+insert into admin (user_name,password,name,phone_no,email_id)values(?,?,?,?,?);
+
+Query 2:-
+select user_name,password,name,phone_no,email_id from admin ;
+
+
+Query 3:-
+
+insert into applicant (user_name,application_number,loan_amount,loan_application_date,acer_of_land,land_value,revenue_generated,property_country,property_state)values(?,?,?,?,?,?,?,?,?)";
+
+Query 4:-
+select loan_id,user_name,application_number,loan_amount,loan_application_date,acer_of_land,land_value,revenue_generated,property_country,property_state from applicant;
+
+Query 5:-
+
+insert into clerk (user_name,password,confirm_password,role)+values(?,?,?,?);
+
+Query 6:-
+update clerk set password=:password where user_name=?;
+
+Query 7:-
+delete from clerk where user_name=?;
+
+Query 8:-
+
+select user_name,password,confirm_password,role from clerk ;
+
+Query 9:-
+select user_name,password,confirm_password,role from clerk where user_name=?;
+
+Query 10:-
+
+insert into manager (user_name,password,confirm_password,role)values(?,?,?,?);
+
+Query 11:-
+
+update manager set password=? where user_name=?;
+
+Query 12:-
+
+delete from manager where user_name=?;
+
+Query 13:-
+
+select user_name,password,confirm_password,role from manager ;
+
+Query 14:-
+select user_name,password,confirm_password,role from manager where user_name=?;
+		
+	
+		
+		
+		
+		
+
+		
+		
+
+	
